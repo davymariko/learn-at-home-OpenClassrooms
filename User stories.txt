@@ -1,0 +1,79 @@
+Connexion:
+==========
+- En tant qu'utilisateur j'ai besoin de me connecter afin 
+d'acceder aux services de l'application
+- En tant qu'utilisateur j'ai besoin de créer un compte afin 
+d'acceder aux services de l'application
+- En tant qu'utilisateur j'ai besoin de récuperer mot de passe afin
+d'avoir accès encore une foix aux services de l'application
+
+Scénario 1:
+* J'entre mes identifiants sur la page de connexion pour me connecter au système
+* Mes identifiants sont corrects, j'entre dans ma page
+* Mes identifiants sont incorrects, je réessaye
+
+Scénario 2:
+* Si j'ai pas de compte, j'entame les procédures de création de compte
+* Je fournis mon nom complet, mon email et je crée un mot de passe
+* Je reçois un email de confirmation
+
+Scénario 3:
+* Si j'ai oublié mon mot de passe, je clique sur "Mot de passe oublié?",
+j'entre mon email afin de recevoir un mail de récupération, je suis les
+étapes qui suivent
+
+
+Chat:
+====
+- En tant qu'utilisateur j'ai besoin d'acceder au chat afin 
+de communiquer avec d'autres utilisateurs
+- En tant qu'utilisateur j'ai besoin de faire, dans la messagerie,
+une recherche d'un nom de mentor afin d'engager la conversation
+
+Scénario 1:
+* Je crée une conversation en recherchant un mentor soitavec le cours 
+ou le nom comme mot clé
+* Je lui envoie une demande de connexion et un message
+
+Scénario 2:
+* Si j'ai reçu un message, je clicke sur la conversation pour pouvoir répondre
+
+Scénario 3:
+* Je peux vouloir effacer un message ou une conversation
+* Je clicque sur les options de conversation et je choisis mon action
+
+
+Calendrier:
+===========
+- En tant qu'utilisateur j'ai besoin d'acceder au calendrier afin
+de pouvoir voir les différents événements et rendez-vous
+- En tant qu'utilisateur j'ai besoin de mentionner/créer différents événements, 
+deadlines et rendez-vous dans le calendrier afin de faire une suivie des activités
+
+
+Scénario 1:
+* Je consulte le calendrier, et je clique sur une date selon les 'highlights' présents,
+là j'ai les détails sur les événements à cette date précise
+
+Scénario 2:
+* Si j'ai besoin de mentionner/créer un événement(une session, projet, ...), je peux créer,
+entrer les informations nécessaires et inviter une autre personne à voir l'événément
+
+
+Taches:
+======
+- En tant qu'utilisateur j'ai besoin de consulter la page des taches pour 
+voir le travail à faire afin de m'en aquitter
+- En tant qu'utilisateur j'ai besoin de créer/modifier/supprimer une tache
+(pour soi même si étudiant et pour d'autres si mentor)
+
+
+Scénario 1:
+* Je consulte la page des taches et je clique sur celle qui est assignée ou pas
+et je revois la description sur cette tache.
+
+Scénario 2:
+* Si j'ai besoin de créer une tache, en tant que mentor je peux créer et assigner
+à l'un de mes élèves; en tant qu'étudiant je ne peux créer une tache que pour moi
+
+
